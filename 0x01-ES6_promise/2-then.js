@@ -1,5 +1,5 @@
 export default function handleResponseFromAPI(promise) {
-    const data = { staus: 200, boy: 'success' };
+    const data = { status: 200, body: 'success' };
 
     return promise
         .then(() => data)
